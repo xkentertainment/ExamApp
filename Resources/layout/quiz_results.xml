@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Results"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:text="You got x out of x questions correct"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="7.5dp"
+        android:id="@+id/hitRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="View Question Summary"
+        android:layout_width="match_parent"
+        android:id="@+id/viewSummary"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:text="Back To Main Menu"
+        android:layout_width="match_parent"
+        android:id="@+id/backToMenu"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

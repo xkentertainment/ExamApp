@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Quiz Preview"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:text="{Quiz Name}"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:id="@+id/quizName"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:background="@android:color/black"
+        android:id="@+id/quizData"
+        android:text="x Questions\nx Attempts\nx% On Last Attempt"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="Take Quiz"
+        android:layout_width="match_parent"
+        android:id="@+id/takeQuiz"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:text="Retake Failed Questions"
+        android:layout_width="match_parent"
+        android:id="@+id/retakeQuiz"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="View Attempt List"
+        android:layout_width="match_parent"
+        android:id="@+id/viewAttemptList"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:text="Save Quiz Data"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Quiz Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:layout_marginTop="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="text"
+        android:maxLength="25"
+        android:id="@+id/quizName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="@android:color/black"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/quizData"
+        android:textAlignment="center"
+        android:text="x Questions\nx Images"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/black"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:id="@+id/saveQuiz"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

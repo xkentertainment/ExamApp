@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Welcome Examinee"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_margin="7.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="Take A Quiz"
+        android:layout_width="match_parent"
+        android:id="@+id/viewAllExams"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:text="New Quizzes"
+        android:layout_width="match_parent"
+        android:id="@+id/viewUnattempted"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="View Attempted"
+        android:layout_width="match_parent"
+        android:id="@+id/viewAttempted"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@color/material_deep_teal_500"
+        android:textColor="@android:color/white"
+        android:text="View Aced"
+        android:layout_width="match_parent"
+        android:id="@+id/viewAced"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

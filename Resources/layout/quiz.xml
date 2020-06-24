@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Name"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/quizName"/>
+    <ExamApp.QuizQuestionView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizQuestionView"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:text="ss"
+        android:id="@+id/quizTimer"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

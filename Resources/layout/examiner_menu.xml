@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Welcome Examiner"
+        android:textAlignment="center"
+        android:layout_margin="7.5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/material_deep_teal_500"
+        android:textColor="@android:color/white"
+        android:text="Import Quiz"
+        android:id="@+id/importExcelButton"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="View Previous Quizzes"
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"
+        android:text="Options"
+        android:id="@+id/optionsMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
